@@ -73,7 +73,10 @@
          "web" : "https://github.com/Kishitsu-Shiko-Lab/ATLib-DBI"
       }
    },
-   "version" : "v0.4.0",
+   "version" : "v0.4.1",
+   "x_contributors" : [
+      "atdev01 <atdev01@honatuxs02.local.jp>"
+   ],
    "x_serialization_backend" : "JSON::PP version 4.16",
    "x_static_install" : 1
 }
