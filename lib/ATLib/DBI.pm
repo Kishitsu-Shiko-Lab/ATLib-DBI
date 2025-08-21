@@ -1,4 +1,4 @@
-package ATLib::DBI v0.4.1;
+package ATLib::DBI v0.4.2;
 use 5.016_001;
 use strict;
 use warnings;
@@ -51,6 +51,8 @@ SQL ステートメントの動作を定義するためのインターフェー�
 =head2 L<< ATLib::DBI::Role::Adapter >>
 
 マトリクス構造にデータを格納するための動作を定義するためのインターフェースです。
+
+=head1 クラス
 
 =head2 L<< ATLib::DBI::Exception >>
 

@@ -28,6 +28,8 @@ SQL ステートメントの動作を定義するためのインターフェー�
 
 マトリクス構造にデータを格納するための動作を定義するためのインターフェースです。
 
+# クラス
+
 ## [ATLib::DBI::Exception](https://metacpan.org/pod/ATLib%3A%3ADBI%3A%3AException)
 
 DBIのエラーをラッピングした ATLib:DBIで発生する例外を表す型です。
