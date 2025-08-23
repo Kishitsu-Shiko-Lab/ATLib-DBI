@@ -16,6 +16,14 @@ has '_dbh'       => (is => 'ro', isa => 'Item', required => 0, writer => '_set__
 
 has 'in_transaction' => (is => 'ro', isa => 'ATLib::Std::Bool', required => 1, writer => '_set_in_transaction');
 
+# Builder
+sub BUILDARGS
+{
+    my ($class, $args_ref) = @_;
+    $class->SUPER::BUILDARGS($args_ref);
+    return $args_ref;
+}
+
 # Class Methods
 sub create
 {

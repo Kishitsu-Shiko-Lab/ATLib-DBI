@@ -1,4 +1,4 @@
-package ATLib::DBI v0.4.2;
+package ATLib::DBI v0.4.3;
 use 5.016_001;
 use strict;
 use warnings;
